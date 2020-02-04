@@ -1,0 +1,645 @@
+
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+
+font-family: Montserrat;
+
+}
+
+/*body {
+
+font-family:  sans-serif;
+
+}
+
+
+*/
+/*...............gernaral classes whish were used sevral time*/
+
+
+/*1-display classes*/
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.container-card {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.table {
+	display: table;
+}
+
+.table-cell
+{
+	display: table-cell;
+}
+.table-row
+{
+	display: table-row;
+}
+
+
+/*text classes */
+
+p{
+	font-size: 14px;
+	line-height: 1.6;
+	color: grey;
+}
+
+
+.introduction
+{
+	margin-bottom: 30px;
+	padding-right: 20px;
+}
+
+
+
+.main-headline
+{
+	font-size: 62px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.headline-uppercase {
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.headline {
+	font-size: 35px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.sub-headline
+{
+	padding-bottom: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.padding-remove{
+	padding: 0;
+}
+
+/*.....................................................*/
+/* main navar styling */
+#navigation{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	background-color: white;
+	display: table;
+	color: black;
+	font-size: 14px;
+}
+/*brand style*/
+.menu-left {
+	display: inline-block;
+	 float: right;
+	padding: 5px;
+}
+
+/*links navar */
+li.navbar-link {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 30px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+li.navbar-link.active {
+	color:#00c6ff;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+
+}
+/*................................................*/
+/*header style */
+/*.........................................................*/
+.header-section {
+	
+    background-color:#f9f9ff ;
+    height: 91vh;
+    margin-bottom: 175px;
+   
+}
+
+.header-section .header-section__wrapper {
+	/*display: table;*/
+	height: 100%;
+}
+
+.header-section .header-section__wrapper .header-section__content-wrapper
+{  
+	/*display: table-cell;*/
+	width: 50%;
+	vertical-align:middle;
+	padding-left: 20px; 
+}
+
+
+
+.header-section .header-section__wrapper .header-section__img-wrapper
+{
+	/*display: table-cell;*/
+	width: 50%;
+	vertical-align:bottom;
+}
+
+
+.button-link{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 50px;
+
+}
+.buttons {
+	padding :15px 35px;
+	  background-image: linear-gradient(to right, #0072ff, #00c6ff);
+	  border: none;
+	  font-weight: 600;
+	  
+
+}
+
+.spaced-note
+{
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+/*.......................................................................*/
+  /*section two styling//details sections */
+
+.section-details {
+	/*display: table;
+      */
+}
+
+
+.details-img
+{  
+/*	display: table-cell;*/
+	width: 50%;
+	vertical-align:middle;
+	padding-left: 20px; 
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+
+
+.detials
+{
+	/*display: table-cell;*/
+	width: 40%;
+	vertical-align:middle;
+	padding-left: 50px;
+}
+/*....................................................................?*/
+
+/* styling services part // information section //*/
+/*...........................................................*/
+
+.section-info{
+	margin-bottom:125px;
+
+}
+
+.main-info
+{
+	text-align: center;
+	padding: 140px 250px 25px 250px;
+}
+
+.sub-info
+{
+	/*display: table-row;*/
+	text-align: center;
+
+}
+.sub-info__content
+{/*
+	display: table-cell;*/
+	width: 30%;
+	padding: 25px 25px ;
+}
+
+.icons{
+	padding-bottom: 30px
+}
+
+/*..........................................*/
+ /*number section styling */
+ /*////////////////////////////////////////*/
+
+.section-nums {
+
+	width: 100%;
+	background-image: linear-gradient(to right, #0072ff, #00c6ff);
+	padding: 50px 0 ;
+}
+
+.nums {
+text-transform: capitalize;
+width: 25%;
+text-align: center;
+padding-top:100px;
+padding-bottom: 100px;
+color: white;
+}
+
+
+.note {
+color: white;
+text-transform: capitalize;
+}
+
+/*styling the number*/
+.num {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+
+/*...........................................................*/
+/*////////////////////////////images section stylying /////////////////////////////////*/
+/**/
+
+
+/*styling the second navbar */
+
+.section-img{
+	padding-bottom: 120px;
+}
+
+.main-img
+{
+	text-align: center;
+    padding: 120px 0;
+}
+
+
+.menu-mid{
+	 text-align: center;
+	 padding: 0;
+	 margin-bottom: 70px;
+	 font-size: 14px;
+
+}
+.sub-img
+{
+	/*display: table-row;*/
+	text-align: center;
+	width: 75%;
+
+}
+
+.sub-sub__img-text{
+	padding-bottom: 18px;
+	padding-top: 18px;
+}
+.sub-img__content
+{/*
+	display: table-cell;*/
+	width: 30%;
+	padding-right: 25px;
+	padding-left: 25px;
+
+}
+
+/*styling the sub-headline {h3}of the imgs*/
+
+/*.................................*/
+/*styling the hover */
+/*..................................*/
+.sub-sub__img
+{
+ padding: 0;
+ position: relative;
+ font-size: 0;
+}
+
+.overlay
+{
+text-align: center;
+width: 100%;
+padding: 0;
+display: none;
+background-color: rgba(000,000,000,0.6);
+position: absolute;
+top:0;
+left: 0;
+right: 0;
+bottom: 0;
+height: 100%
+
+}
+
+#text {
+
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	/*position: absolute;
+	bottom: 45%;
+	right: 40%;*/
+
+}
+
+.sub-sub__img:hover .overlay  {
+	/*display: table;*/
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.hovering{
+	
+	width: 100%;
+}
+
+
+
+
+/*...........................................................*/
+/**/
+/*...................................................*/
+			/*stylining feedback section*/
+/*...........................................................*/
+
+.section-feedback
+{
+	/*text-align: center;*/
+	padding: 140px 100px;
+	background-color:#f9f9ff ;
+}
+
+
+.main-feedback{
+	/*display: table;*/
+	text-align: center;
+	width: 100%;
+   padding-bottom: 70px;
+
+}
+/*.sub-feedback
+{
+
+}*/
+.sub-feedback__content
+{
+	
+	background-color: white;
+}
+.sub-img-feedback__content{
+	width:16%;
+	vertical-align: top;
+	padding: 0 30px;
+}
+
+
+.sub-text-feedback__content{
+	width: 80%;
+	vertical-align: center;
+	text-align: left;
+	
+}
+/*..................................................................*/
+
+.circle3{
+    width: 100%;
+
+
+}
+
+
+.card {
+	display: inline-block;
+	width: 48%;
+	margin-right: 7px;
+	margin-top: 30px;
+	padding: 30px 30px 30px 0;
+
+}
+
+.card__right{
+	display: inline-block;
+	width: 48%;
+	float: right;
+	margin-top: 30px;
+	padding: 30px 30px 30px 0;
+
+}
+
+/*.............................*/
+
+.main-plan {
+	margin-bottom: 42px;
+}
+
+.sub-plan
+{
+	width: 100%;
+
+}
+
+.sub-sub-plan{
+	width: 25%;
+	text-align: center;
+	background-color:#f9f9ff ;
+	padding-top: 25px ;
+	padding:67px 29px 30px 50px;
+
+}
+
+
+.circle {
+    background-color:#E2E5FF;
+    border:30px solid #ccdadb;    
+    height:150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:150px;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#special
+{
+   padding-bottom: 45px;
+   padding-top: 10px;
+}
+
+.border-bottom 
+{
+	border-bottom: 2px solid rgb(128,128,128,0.459) ;
+	
+	padding: 13px 5px;
+	margin-top: 0;
+}
+#extrapad{
+	padding: 20px;
+}
+/*.......................................................*/
+.post {
+	display: inline-block;
+	width: 30%;
+	
+	padding-right:0 
+	padding-left:0;
+	margin: 15px ;
+}
+
+
+.post-info{
+	padding: 5px 0 ;
+	border-bottom: rgb(128,128,128,0.459) 2px solid ;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.profile{
+	display: inline-block;
+	vertical-align:bottom;
+	float: left;
+	margin: 5px;
+}
+.date{
+	display: inline-block;
+	float: right;
+	padding-top: 4px;
+}
+
+.post-img{
+	width: 100%;
+}
+.post-icons {
+	padding: 4px 8px ;
+}
+.comment {
+	text-align:left;
+	margin-bottom: 100px;
+}
+
+h3 .comment{
+	text-transform: uppercase;
+	margin-top: 10px; 
+}
+
+.section-post{
+	background-color: #f9f9ff;
+	margin-top: 150px;
+	padding-bottom: 34px;
+}
+
+.main-post
+{
+	text-align: center;
+	padding: 124px 100px 54px 100px ;
+}
+/*...............logos section................................*/
+
+ .section-logo {
+    width: 100%;
+    background-image: linear-gradient(to right, #0072ff, #00c6ff);
+    padding: 0;
+}
+  
+.nums-logo {
+/*display: table-cell;*/
+width: 20%;
+text-align: center;
+padding-top:100px;
+padding-bottom: 100px;
+
+}
+
+/*.........footer section.....*/
+
+.footer-section{
+	background-color: #232e61;
+}
+.big-cell{
+	padding: 30px 15px;
+	
+	width: 40%;
+	color: white;
+}
+.cell{
+	color: white;
+	padding: 120px 15px;
+		
+	width: 20%;
+}
+/*.......................................................*/
+/*styling the inpit form */
+#form {
+	/*display: inline-block;*/
+}
+
+#search-btn {
+background:#0099ff;
+width: 11%;
+color:white;
+margin:0;
+padding:15px 20px;
+border:none;
+display: inline-block;
+
+}
+ 
+
+#search-box{
+	display: inline-block;
+background:white;
+padding:15px ;
+border:none;
+  margin:0;
+width:85%;
+ }
+
+ .opacity{
+ 	opacity: 0.6;
+ }
+
+.footer-icons{
+	padding:5px;
+
+
+}
+
+#blue-note {
+	color: #ccdadb;
+}
+/*.......................................................*/
+/*padding remove class*/

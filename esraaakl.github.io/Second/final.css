@@ -1,0 +1,667 @@
+
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif;*/
+
+body {
+font-family: 'Lato', sans-serif;
+font-size: 12px;
+line-height: 1.6;
+}
+
+p{
+	font-size: 12px;
+	
+	color: grey;
+}
+
+/*.................................general classes */
+
+
+.main-container {
+	margin: 0 auto ;
+	width: 100%;
+}
+.container {
+	width: 63%;
+	margin: 0 auto ;
+}
+.mini-container{
+width: 30%;
+margin:0 auto;
+}
+.sub-container{
+	width: 38%;
+	margin:0 auto;
+}
+
+.capital
+{
+	text-transform: capitalize;
+}
+
+.uppercase
+{
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+ 
+.inline {
+	display: inline-block;
+}
+ .table {
+	display: table;
+	width: 100%;
+}
+
+.table-cell
+{
+	display: table-cell;
+}
+.table-row
+{
+	display: table-row;
+}
+
+.overlay-note {
+	color: grey ;
+	font-size: 12px;
+	padding-bottom: 5px;
+	
+}
+
+.note {
+	color: grey ;
+	font-size: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+
+}
+
+.under-line
+{  border-bottom: 2px #fbca04 solid ;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 6px;
+}
+
+.main-headline {
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+	line-height: 1.3;
+
+
+}
+
+.introduction {
+	padding: 30px 0;
+}
+.paragraph{
+	padding: 8px 0;
+}
+
+.headline {
+	font-size: 26px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+
+}
+.sub-headline {
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+
+}
+
+.overlay-head{
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+}
+
+.sub-sub--headline {
+	font-size: 15px;
+font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+
+}
+
+.mini-headline{
+font-size: 12px;
+font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+
+
+}
+
+.bolded-note{
+	font-weight: bold;
+	font-size: 9px;
+	
+}
+.notes {
+	color: grey ;
+	font-size: 8px;
+	padding-bottom: 7px;
+	opacity: 0.5;
+}
+.mini-note {
+	font-size: 10px;
+	padding-top: 5px;
+	color: grey;
+}
+.special-headline{
+	    height: 24px;
+}
+
+
+
+/*.......................navbar styling..........................*/
+.navbar{
+/*	padding-top: 20px;
+	padding-bottom: 20px;*/
+	width: 100%;
+	background-color: white;
+	display: table;
+	color: black;
+	padding: 23px 48px;
+	font-size: 14px;
+}
+/*brand style*/
+.right-menu{
+	display: inline-block;
+	 float: right;
+	/*padding: 5px;*/
+}
+
+/*links navar */
+li.navbar-link {
+	text-decoration: none;
+	font-weight: bold;
+	vertical-align: middle;
+	list-style: none;
+	display: inline-block;
+	padding-left: 40px;
+
+}
+
+/*.................................................*/
+/*jumbtron styling /*/
+
+
+.jumbtron-btn {
+	padding: 13px 33px;
+	 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	 font-size: 12px;
+	 font-weight: bold;
+	 font-family: 'Raleway', sans-serif;
+	 color: black;
+	 border: none;
+     background-color: white;
+
+}
+.jumbtron-section--sub{
+	display: table-cell;
+	vertical-align: middle;
+	 width: 30%;
+	
+}
+.jumbtron-section
+{
+	background-color: #f3f2f7;
+	position: relative;
+}
+.images{
+width: 100%;
+}
+
+.info-cell {
+	        padding-bottom: 50px;
+    padding-right: 217px;
+    padding-left: 38px;
+}
+
+.header-img{
+	padding-left: 133px;
+    width: 109%;
+
+}
+.scroll {
+	position: absolute;
+	 bottom: 2%;
+    right: 47.8%;
+}
+
+.scroll-icon {
+	border: 2px solid black ;
+	padding: 2px 2px;
+	margin: 0 7px;
+
+}
+
+#scroll-icon-black {
+	background-color: black;
+}
+
+/*...................................................*/
+/*gallery section */
+
+.gallery-section {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.gallery-section-sub{
+	width: 25%;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+
+.center
+{
+	text-align: center;
+}
+
+.layer {
+	position: relative;
+	 padding: 0;
+}
+.overlay{
+	display: none;
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+		position: absolute;
+		top:0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+}
+
+.layer:hover .overlay  {
+	display: block;
+}
+.icon-left{
+	    padding: 0 9px;
+
+}
+
+.icon-right{
+	    padding: 0 16px;
+}
+.text {
+
+	
+	position: absolute;
+	position: absolute;
+    bottom: 39%;
+    right: 29%;
+}
+
+.icons-imgs {
+	padding-right: 11px;
+}
+
+/*.................................................*/
+/*............. web section .........................*/
+
+/*.......................... content part...........*/
+.web-section {
+	margin-top: 131px ;
+	margin-bottom: 30px;
+}
+.web-section--content{
+width: 57%;
+/*height:1.75em;*/
+
+
+}
+.web-section--aside
+ {
+   /* display: inline;*/
+   /* float: left;*/
+   
+    line-height: 1.75em;
+    width: 27.27272727%;
+/*    border: 1px yellow solid ;*/
+    vertical-align: top;
+}
+
+.content-img--sub{
+	width: 45%;
+	vertical-align: top;
+	padding-bottom: 66px;
+	
+}
+
+.content-img-left {
+	padding-left: 15px;
+	
+}
+
+.content-img-right{
+	padding-right: 15px;
+	
+}
+
+.img-padding{    
+padding-bottom: 20px;
+}
+/*....................................*/
+
+.content-description-wrapper{
+	width: 100%;
+	    padding-bottom: 66px
+}
+
+.icons {
+	font-size: 11px;
+	padding-right: 5%;
+	padding-top: 20px;
+}
+
+/*.....................................................*/
+/*.... profile content section ,,,,,,,,,,,,*/
+.content-profile--section{
+	margin-bottom: 40px;
+}
+.profile-card{
+	display: inline-block;
+	width: 49.8%;
+
+
+}
+
+.card-img{
+    padding: 0 14px 23px 0;
+    width: 26%;
+    float: left;
+}
+.left-card{
+	margin-left: 
+}
+/*......................................*/
+.post-profile--card{
+	display: inline-block;
+	width: 100%;
+
+}
+.content-posts-sub{
+	    border-bottom: 2px #d7d7d77a solid;
+	    padding-bottom: 4px;
+    margin-bottom: 15px;
+}
+
+/*.............................................*/
+ /*aside section styling */
+.web-section--aside-wrapper{
+	margin-left: 8%;
+	width: 92%;
+	position: relative;
+}
+ .search-box{
+ 	width: 100%;
+ 	padding: 10px 0 ;
+ 	    margin-bottom: 60px;
+
+ }
+
+ .search-box--icon {
+ 	position: absolute;
+ 	top: 8px;
+ 	right: 10%
+ }
+
+ .list-box
+ {
+ 	/*margin-top: 4px;*/
+ 	width: 100%;
+ }
+.list-links
+{
+	
+	    list-style: none;
+    font-size: 12px;
+    padding: 8px 0;
+    color: grey;
+    border-bottom: #8080804f solid 1.2px
+
+}
+.num-list {
+	    float: right;
+}
+.last-list--links{
+	border: none;
+}
+.first-list--links{
+	padding-top: 0;
+}
+
+.aside-head{
+	padding-bottom: 20px;
+}
+
+.list-head {
+	list-style: none;
+}
+
+.list {
+	margin-bottom: 35px;
+}
+/*.........................................................*/
+/*insta -section */
+
+.insta-imgs {
+	margin-top: 15px;
+	margin-bottom: 65px;
+	width: 103%;
+}
+
+.insta-img{
+	display: inline-block;
+	width: 24%;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+.insta-img---sub{
+	width: 94%;
+	
+}
+
+/*................................................*/
+.text-widget{
+	margin-bottom: 47px;
+}
+.news{
+	    padding-bottom: 7px;
+    border-bottom: 1.5px #80808038 solid;
+}
+.news-cards{
+	margin-top: 17px;}
+
+
+.news-card{
+	display: inline-block;
+	width: 112%;
+
+}
+
+.tags-widget{
+	margin-top: 30px;
+	margin-bottom: 41px;
+}
+.special-padding {
+	padding-bottom: 30px;
+
+}
+#extra-padding{
+	padding-bottom: 40px;
+}
+/*..............................*/
+.box {
+    border: 0.5px #80808038 solid;
+    padding: 5px 17px;
+    margin: 4px 0.5%;
+    display: inline-block;
+}
+
+.archive {
+	margin-top: 42px;
+}
+/*...........................*/
+.light-grey {
+	color: #80808038 ;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+.comment-list-links
+{
+	
+	    list-style: none;
+    font-size: 12px;
+    padding: 13px 0;
+    color: grey;
+    border-bottom: #8080804f 1.2px solid ;
+
+}
+/*.............................subcribe-section..................*/
+.subcribe-section{
+	/*width: 100%;*/
+	background-image: url("images/img1.png"),url("images/img2.png");
+	background-position: right 0,left 0;
+	background-repeat: no-repeat;
+	    background-position-y: -71px,-123px;
+	background-size: 30%,30%;
+	background-color:rgb(247, 245, 243);
+
+
+}
+
+.subcribe-section {
+    /* width: 100%; */
+    background-image: url(images/img1.png),url(images/img2.png);
+    background-position: left 0,right 0;
+    background-repeat: no-repeat;
+    background-position-y: -63px,-125px;
+    background-size: 30%,30%;
+    background-color: #dbd5cc;
+}
+
+.overlay-subcribe{
+	background-color: rgba(255,255,255,0.7);
+}
+.subcribe-section--wrapper{
+	text-align: center;
+	position: relative;
+	padding: 95px 0;
+}
+.paragraph-align
+{
+	margin: 0 auto;
+	width: 69%;
+	font-size: 10px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+
+.subcribe-box{
+border: 1px #c7c7ea solid ;
+background: transparent;
+width: 84%;
+ 	padding: 10px 19px;
+
+
+}
+#special-under--line{
+	    border-bottom: 1px solid black;
+}
+.sub-button{
+	text-transform: uppercase;
+	position: absolute;
+	top: 62%;
+	right:6%;
+	padding: 12px 33px;
+	 font-size: 12px;
+	 font-weight: bold;
+	 font-family: 'Raleway', sans-serif;
+	 color: black;
+	 border: none;
+     background-color:#fbca04;
+
+}
+/*...............................*/
+/*footer serion */
+.footer-section
+{
+	background-color: #313234;
+	color: white;
+	    padding: 92px 0;
+}
+
+.footer-section-wrapper{
+	width: 65%;
+    margin: 0 auto;
+}
+
+.sub-footer-section
+{
+	width: 49.8%;
+	
+
+}
+/*...................................*/
+.contact-paragraph
+{
+	margin-bottom: 30px;
+	width: 90%;
+	color: white;
+}
+.card-contact{
+	margin-top: 8px;
+}
+.contact-info{
+	line-height: 2;
+}
+.contact-icon{
+	margin-right: 3%;
+}
+.contact-img{
+	 padding: 0 14px 11px 0;
+    width: 17.5%;
+    float: left;
+
+}
+.contact-line{
+	border-bottom: 1px solid #a4a4ea;
+}
+.insta-contact
+{
+	margin-bottom: 0;
+}
+
+
+/*............................*/
+.footer {
+text-align: center; 
+background-color: #08090c;
+padding: 5px 0;
+}
+.special-mini--headline{
+	    font-weight: 600;
+
+}
